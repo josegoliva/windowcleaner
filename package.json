@@ -1,0 +1,17 @@
+{
+  "name": "windowcleander-website",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve"
+  },
+  "author": "Max Kohler",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "eleventy-plugin-sass": "^1.0.0"
+  }
+}
