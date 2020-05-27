@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +18,19 @@
 </head>
 
 <body>
-    {{ content | safe }}
+    <header class="site-header">
+        <h1>RCA Window Cleaner Society</h1>
+        <nav class="site-nav">
+            <a href="/">Home</a>
+            <a href="/references">References</a>
+            <a href="/writing">Writing</a>
+            <a href="/news">News</a>
+            <a href="/about">About</a>
+        </nav>
+    </header>
+    <main class="site-main">
+        {{ content | safe }}
+    </main>
     <script src="{{'/js/site.js' | url}}"></script>
 </body>
 
