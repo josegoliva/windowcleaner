@@ -25,7 +25,7 @@
 :root {
     --font-text: 'Work Sans', 'Franklin Gothic', Helvetica, sans-serif;
     --ratio: 1.33;
-    --ms-0: clamp(.9rem, calc(.6vw + .6vh), 1.1rem);
+    --ms-0: 1.2rem;
     --ms--1: calc(var(--ms-0) / var(--ratio));
     --ms-1: calc(var(--ms-0) * var(--ratio));
     --ms-2: calc(var(--ms-1) * var(--ratio));

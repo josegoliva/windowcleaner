@@ -7,13 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Windowcleaner Society</title>
 
-    <link rel="apple-touch-icon" sizes="180x180" href='{{"/assets/apple-touch-icon.png" | url}}'>
-    <link rel="icon" type="image/png" sizes="32x32" href='{{"/assets/favicon-32x32.png" | url}}''>
-    <link rel="icon" type="image/png" sizes="16x16" href=' {{"/assets/favicon-16x16.png" | url}}''>
-    <link rel="manifest" href="/site.webmanifest">
     <link rel="shortcut icon" href='{{"/assets/favicon.ico" | url }}'>
     <meta name="theme-color" content="#fcf8d3">
-    <link rel="stylesheet" href=" {{'/css/main.css' | url}}">
+    <link rel="stylesheet" href=" {{'/css/style.css' | url}}">
 
 </head>
 
@@ -31,7 +27,8 @@
     <main class="site-main">
         {{ content | safe }}
     </main>
-    <script src="{{'/js/site.js' | url}}"></script>
+ 
+    <script src="{{'/dist/main.js' | url}}"></script>
 </body>
 
 </html>

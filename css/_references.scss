@@ -1,0 +1,11 @@
+.references {
+    font-size: var(--ms-0);
+}
+
+.references-row {
+    display: grid;
+    grid-template-columns: 15rem 4rem 10rem 1fr 1fr 1fr;
+    border-bottom: 1px solid black;
+    padding-bottom: .5em;
+    margin-bottom: .5em;
+}

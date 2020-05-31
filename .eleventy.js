@@ -2,7 +2,7 @@ const pluginSass = require("eleventy-plugin-sass");
 
 module.exports = function (eleventyConfig) {
 
-    eleventyConfig.addPassthroughCopy("js");
+    eleventyConfig.addPassthroughCopy("dist");
     eleventyConfig.addPassthroughCopy("assets");
     eleventyConfig.addPassthroughCopy("/*.png");
     eleventyConfig.addPassthroughCopy("/*.png");
